@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #4d4d4d;
+    color:deeppink;
+    height: 100%;
+}
+
+#content
+{
+    min-height: 100%;
+}
+
+#main
+{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+h1{
+    margin: 1em;
+}
+
+section {
+    margin-left: 2em;
+    margin-right: 2em;
+    column-count: 3;
+    column-width: 300px;
+    column-gap: 30px;
+}
+
+section h2 {
+    margin-bottom: 0.5em;
+    column-span: all;
+}
+
+.subsection{
+    color:hotpink;
+    break-inside: avoid;
+    margin-left: 0em;
+}
+
+.subsection h3{
+    background-color: black;
+    width: 100%;
+    display: block;
+}
+
+.subsection ul{
+    padding-left: 1em;
+}
+
+mark
+{
+    color:black;
+    background-color:hotpink;
+}
+
+footer 
+{
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear:both;
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding-top:10px
+}
+
+note-to-self {
+    color:ivory;
+}
